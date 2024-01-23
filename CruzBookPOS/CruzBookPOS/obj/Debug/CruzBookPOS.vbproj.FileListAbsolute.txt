@@ -1,0 +1,14 @@
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\bin\Debug\CruzBookPOS.exe.config
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\bin\Debug\CruzBookPOS.exe
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\bin\Debug\CruzBookPOS.pdb
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\bin\Debug\CruzBookPOS.xml
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.vbproj.AssemblyReference.cache
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.Form1.resources
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.Form2.resources
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.Resources.resources
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.vbproj.GenerateResource.cache
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.vbproj.CoreCompileInputs.cache
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.exe
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.xml
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.pdb
+D:\VSCODES!!!\CruzBookPOS\CruzBookPOS\obj\Debug\CruzBookPOS.frndashboard.resources
