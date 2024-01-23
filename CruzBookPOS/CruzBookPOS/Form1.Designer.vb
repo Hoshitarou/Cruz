@@ -26,6 +26,9 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.LblRole = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.BtnLog = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.TxtPassword = New System.Windows.Forms.TextBox()
@@ -34,9 +37,6 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.BtnLog = New System.Windows.Forms.Button()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.LblRole = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -82,6 +82,38 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(259, 358)
         Me.Panel1.TabIndex = 6
         '
+        'LblRole
+        '
+        Me.LblRole.AutoSize = True
+        Me.LblRole.Font = New System.Drawing.Font("Sitka Small", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblRole.Location = New System.Drawing.Point(101, 283)
+        Me.LblRole.Name = "LblRole"
+        Me.LblRole.Size = New System.Drawing.Size(32, 16)
+        Me.LblRole.TabIndex = 11
+        Me.LblRole.Text = "-----"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Sitka Small", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(27, 283)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(68, 16)
+        Me.Label6.TabIndex = 10
+        Me.Label6.Text = "Log-In As:"
+        '
+        'BtnLog
+        '
+        Me.BtnLog.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(182, Byte), Integer))
+        Me.BtnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnLog.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnLog.Location = New System.Drawing.Point(125, 243)
+        Me.BtnLog.Name = "BtnLog"
+        Me.BtnLog.Size = New System.Drawing.Size(75, 25)
+        Me.BtnLog.TabIndex = 9
+        Me.BtnLog.Text = "Log-In"
+        Me.BtnLog.UseVisualStyleBackColor = False
+        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -114,6 +146,7 @@ Partial Class Form1
         Me.TxtPassword.Location = New System.Drawing.Point(43, 214)
         Me.TxtPassword.Multiline = True
         Me.TxtPassword.Name = "TxtPassword"
+        Me.TxtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TxtPassword.Size = New System.Drawing.Size(157, 23)
         Me.TxtPassword.TabIndex = 5
         '
@@ -169,38 +202,6 @@ Partial Class Form1
         Me.Label5.Size = New System.Drawing.Size(424, 62)
         Me.Label5.TabIndex = 7
         Me.Label5.Text = "Inkwell Emporium"
-        '
-        'BtnLog
-        '
-        Me.BtnLog.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(182, Byte), Integer))
-        Me.BtnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnLog.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnLog.Location = New System.Drawing.Point(125, 243)
-        Me.BtnLog.Name = "BtnLog"
-        Me.BtnLog.Size = New System.Drawing.Size(75, 25)
-        Me.BtnLog.TabIndex = 9
-        Me.BtnLog.Text = "Log-In"
-        Me.BtnLog.UseVisualStyleBackColor = False
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Sitka Small", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(27, 283)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(68, 16)
-        Me.Label6.TabIndex = 10
-        Me.Label6.Text = "Log-In As:"
-        '
-        'LblRole
-        '
-        Me.LblRole.AutoSize = True
-        Me.LblRole.Font = New System.Drawing.Font("Sitka Small", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblRole.Location = New System.Drawing.Point(101, 283)
-        Me.LblRole.Name = "LblRole"
-        Me.LblRole.Size = New System.Drawing.Size(32, 16)
-        Me.LblRole.TabIndex = 11
-        Me.LblRole.Text = "-----"
         '
         'Button2
         '
